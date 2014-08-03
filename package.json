@@ -1,0 +1,34 @@
+{
+  "name": "codec",
+  "version": "0.1.0",
+  "description": "A collection of codecs of frequent file formats",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/node-codec.git"
+  },
+  "keywords": [
+    "codec",
+    "config",
+    "configurations",
+    "ini",
+    "yaml",
+    "codec",
+    "environment"
+  ],
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "author": "Kael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/node-codec/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
